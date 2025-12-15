@@ -20,7 +20,7 @@ Severe outages impose billions of dollars in economic losses, threaten public sa
 
 Dataset Overview
 
-The dataset contains 1534 rows (fill in with df.shape[0]) and 55 variables, but only a subset is directly relevant to predicting outage severity. Below are the key columns used in this project:
+The dataset contains 1534 rows and 55 variables, but only a subset is directly relevant to predicting outage severity. Below are the key columns used in this project:
 
 ⸻
 
@@ -220,6 +220,7 @@ Group Y (Cold regions): Northeast, Northern Rockies & Plains, Upper Midwest
 The evaluation metric was macro F1 score.
 
 Null Hypothesis: The model is fair with respect to climate region; the macro F1 score for warm regions and cold regions is the same, and any observed difference is due to random chance.
+
 Alt Hypothesis: The model is unfair; the macro F1 score differs between warm and cold regions.
 
 I used the difference in macro F1 scores between the two groups (warm − cold) as the test statistic. This statistic directly measures whether the model performs systematically better for one group than the other.
