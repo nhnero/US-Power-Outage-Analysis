@@ -2,6 +2,8 @@ Project in DSC80 at UCSD to analyze a US power outage dataset and find insights 
 
 Nate Nero (natehnero@gmail.com)
 
+View the webpage version: https://nhnero.github.io/US-Power-Outage-Analysis/
+
 ## Introduction
 
 Major power outages are dangerous, costly, and increasingly influenced by extreme weather and aging infrastructure. To better understand these outages, I analyze a  dataset compiled by Mukherjee, Nateghi, and Hastak (2018), which documents major U.S. power outages from January 2000 to July 2016. According to the Department of Energy, a “major outage” is one that affects at least 50,000 customers or results in a loss of 300 MW of firm load.
