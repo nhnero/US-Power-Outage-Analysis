@@ -46,23 +46,14 @@ Three findings worth more than the headline number:
 ## Repository
 
 ```
-outage_analysis.ipynb   full analysis, executed end to end
-index.md                the project write-up rendered at the site above
-results.json            every number quoted in the write-up, emitted by the notebook
-data/outage.xlsx        source dataset
-assets/*.html           interactive Plotly figures embedded in the site
+index.md          the project write-up rendered at the site above
+results.json      every number quoted in the write-up, emitted by the analysis
+assets/*.html     interactive Plotly figures embedded in the site
 ```
 
-## Running it
-
-```bash
-conda create -n outage python=3.12 pandas scikit-learn plotly openpyxl jupyter
-conda activate outage
-jupyter lab outage_analysis.ipynb
-```
-
-Restart-and-run-all reproduces every figure and rewrites `results.json`. Built with
-scikit-learn 1.5.2, pandas 2.2.3, and plotly 5.24.1.
+The analysis notebook and source dataset are not published here. The dataset is available from the
+original authors (Mukherjee, Nateghi, and Hastak, 2018). Built with scikit-learn 1.5.2,
+pandas 2.2.3, and plotly 5.24.1.
 
 ---
 

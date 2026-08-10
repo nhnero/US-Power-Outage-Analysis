@@ -3,7 +3,7 @@ layout: page
 title: Predicting Prolonged Power Outages
 ---
 
-**Nate Nero** · [natehnero@gmail.com](mailto:natehnero@gmail.com) · [Source and notebook on GitHub](https://github.com/nhnero/US-Power-Outage-Analysis)
+**Nate Nero** · [natehnero@gmail.com](mailto:natehnero@gmail.com) · [Project repository](https://github.com/nhnero/US-Power-Outage-Analysis)
 
 <style>
 .chart { position: relative; width: 100%; margin: 1.6rem 0; }

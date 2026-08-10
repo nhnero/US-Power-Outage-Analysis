@@ -1,3 +1,8 @@
 .DS_Store
 **/.DS_Store
 .ipynb_checkpoints/
+
+# analysis source and dataset are not published
+outage_analysis.ipynb
+data/
+*.xlsx
