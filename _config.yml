@@ -1,1 +1,12 @@
+title: Predicting Prolonged Power Outages
+description: >-
+  Can we tell, when a major U.S. power outage is first reported, whether it will
+  last more than 24 hours? A data science project on the DOE major-outage record,
+  2000-2016.
+author: Nate Nero
 theme: minima
+show_excerpts: false
+
+exclude:
+  - README.md
+  - .DS_Store

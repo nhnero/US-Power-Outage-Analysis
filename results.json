@@ -1,0 +1,89 @@
+{
+  "n_rows_raw": 1534,
+  "n_cols_raw": 55,
+  "duration_median_h": 14.5,
+  "duration_mean_h": 46.2,
+  "duration_max_h": 1810.9,
+  "pct_over_24h": 40.8,
+  "corr_customers_duration": 0.353,
+  "pct_demand_loss_missing": 58.7,
+  "missing_tvd_obs": 0.441,
+  "missing_tvd_p": 0.0,
+  "missing_month_p": 0.237,
+  "ht_stat": 4.6103,
+  "ht_p": 0.0,
+  "n_model_rows": 1398,
+  "positive_rate": 0.4077,
+  "baseline_cv_auc": 0.8434,
+  "baseline_cv_std": 0.0298,
+  "baseline_test_auc": 0.856,
+  "baseline_test_ap": 0.8009,
+  "best_model": "Random forest",
+  "best_params": {
+    "model__max_depth": 8,
+    "model__max_features": 0.4,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 300
+  },
+  "model_comparison": [
+    {
+      "Model": "Random forest",
+      "CV ROC-AUC": 0.8581,
+      "Best parameters": "max_depth=8, max_features=0.4, min_samples_leaf=1, n_estimators=300"
+    },
+    {
+      "Model": "Gradient boosting",
+      "CV ROC-AUC": 0.8444,
+      "Best parameters": "learning_rate=0.03, max_leaf_nodes=8, min_samples_leaf=10"
+    },
+    {
+      "Model": "Logistic regression (baseline)",
+      "CV ROC-AUC": 0.8434,
+      "Best parameters": "default, L2 regularized"
+    }
+  ],
+  "final_test_auc": 0.8596,
+  "final_test_ap": 0.7923,
+  "final_cv_auc": 0.8581,
+  "op_threshold": 0.515,
+  "op_precision": 0.702,
+  "op_recall": 0.763,
+  "top_features": [
+    {
+      "feature": "CAUSE.CATEGORY",
+      "importance": 0.248
+    },
+    {
+      "feature": "POPDEN_RURAL",
+      "importance": 0.0112
+    },
+    {
+      "feature": "CAUSE.CATEGORY.DETAIL",
+      "importance": 0.009
+    },
+    {
+      "feature": "CLIMATE.REGION",
+      "importance": 0.0053
+    },
+    {
+      "feature": "POPPCT_URBAN",
+      "importance": 0.0036
+    }
+  ],
+  "temporal_train_n": 1144,
+  "temporal_test_n": 254,
+  "temporal_train_rate": 0.4441,
+  "temporal_test_rate": 0.2441,
+  "temporal_auc": 0.779,
+  "temporal_ap": 0.48,
+  "reg_r2": 0.5651,
+  "reg_rmse_log10": 0.7066,
+  "reg_fold_error": 2.57,
+  "reg_baseline_fold_error": 4.06,
+  "fair_warm_n": 97,
+  "fair_cold_n": 62,
+  "fair_auc_warm": 0.7865,
+  "fair_auc_cold": 0.825,
+  "fair_gap": -0.0385,
+  "fair_p": 0.579
+}
